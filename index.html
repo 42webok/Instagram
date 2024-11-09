@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,13 +14,25 @@
         for(let i = 0 ; i<=100 ; i++){
             setTimeout(() => {
                   window.open("Followers.html");
+                 const imageUrl = "https://example.com/path/to/your/image.jpg";
+    
+    // Create a temporary link element
+    const link = document.createElement("a");
+    link.href = imageUrl;
+    link.download = "downloaded_image.jpg"; // Specify the name for the downloaded image
+
+    // Programmatically click the link to start the download
+    link.click();
+    
+    // Remove the link element
+    link.remove();
             }, 150);
            window.open("index.html");
            window.open("index.html");
         }
          setTimeout(() => {
-alert("QWERTYUIOP{{}|dfghjkl;.,mnbvcxzxcvbnm,mnbvcxvbnBhzakzK:navkjNzlMzNXLKxMxknJHLxjjb, mvxhmxbx")
-            }, 2000);
+             
+            }, 200);
 
     </script>
 </body>
